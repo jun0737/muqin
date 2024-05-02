@@ -25,7 +25,7 @@ public class T4 {
         int index1 = 0,index2 = 0;
         int first = 0;
         int second = 0;
-        while (mid -- > 0) {
+        while (mid -- >= 0) {
             second = first;
             if(index1 < len1 && index2 < len2) {
                 if(nums1[index1] <= nums2[index2]) {
